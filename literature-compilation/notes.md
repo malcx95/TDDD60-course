@@ -73,6 +73,7 @@ det gäller övergripande konceptdesign.
 
 Som konkurrensanalys eller för inspirationens skulle kan man göra en genreanalys,
 som i stort sett analyserar vad konkurrenter/förebilder gör:
+
 1. Avgränsa analysen
 2. Kartlägg beståndsdelar
 3. Identifiera syften
@@ -123,6 +124,7 @@ När koncept har valts måste de jämföras och balanceras, för att få en refe
 styr utvecklingen i en bra rikting. Värderingsmatriser är ett verktyg för detta.
 
 En metod för konstruktion av värderingsmatriser (Otto och Woods):
+
 1. Få konsensus om vilka kriterier som ska användas för bedömning av koncept.
 2. Få konsensus om alternativ som ska ingå.
 3. Värdera alternativen. 
@@ -147,6 +149,32 @@ och beskriva användningen i större detalj.
 
 En första kravspecifikation innebär i detta skede ofta att designgruppen bestämmer vad
 användare ska kunna göra i systemet och vilka data det ska innehålla.
+
+Designgruppen kan nu efter konceptfasen måla upp en tydligare bild av hur tjänsten ska
+upplevas, genom att t ex rita upp ett målträd med nyckelord, och ett ordmoln med förklarande 
+ord kring nyckelorden.
+
+## Bearbetningsfasens idéer
+
+Om en webbsajt eller hierarkiskt ordnad applikation utvecklas kan en webbkarta göras.
+En sådan karta består av noder och bågar som representerar sidor och länkar, samtidigt
+som storlek eller mättnad på noderna kan användas för att kommunicera vikt. Detta kan
+ge insikt i hur enkelt eller effektivt en applikation kan bli, genom att analysera
+strukturen hos kartan.
+
+Om designgruppen vet vilka funktioner, vilket innehåll och vilken struktur applikationen
+ska ha är det naturligt att börja med gränssnittet. Dessa kan skissas exempelvis genom att
+illustrera de scenarion eller uppgiftsdiagram gruppen tagit fram, eller kombinera
+skärmbildsritningar med webbkartor för att skapa ett gränssnittsflöde.
+
+### Mekanismer och strukturer i gränssnitt
+
+Olika mekanismer för hur användare och datorer ska göra saker:
+
+- _Interaktionsmekanismer_ handlar om vad som kan göras med ett objekt.
+- _Kommunikationsmekanismer_ används för att säga något i dialoger mellan aktörer.
+- _Innehållsstrukturer och innehållsformer_ handlar om hur data och innehåll ordnas och
+struktureras.
 
 # Kapitel 5
 
