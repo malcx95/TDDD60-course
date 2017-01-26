@@ -96,9 +96,57 @@ Några grundläggande kreativitetstekniker för att konstruera "tänk-om"-scenar
     - Sex deltagare skriver ner tre idéer.
     - Papprena med idéer skiftas mellan personerna, varpå tre nya idéer skrivs ner.
     - Detta görs till personerna får tillbaka de papper de började med.
-    - Ger möjlighet att förädla goda idéer och minskar risken till att ett fåtal personer tar över.
+    - Ger möjlighet att förädla goda idéer och minskar risken till 
+    att ett fåtal personer tar över.
 - Funktionsdriven divergens
+    - Som metod 635 fast med funktionsanalys.
+    - Idéerna man skriver ner svarar på frågan "Vad ska användaren kunna göra?".
+    - Funktionerna i formuläret analyseras efter nödvändighet ur användarens perspektiv.
+    - Tankeexperiment formas till slut om hur det skulle se ut om någon av funktionerna
+    var huvudfunktion.
+- Kvalitetsdriven divergens 
+    - Som funktionsdriven divergens, med fokus på vilka kvaliteter en produkt/tjänst ska ha.
+- Metafordriven divergens 
+    - Konceptdriven konvergens med fokus på vad en produkt eller tjänst kan liknas till.
 
+Dessa metoder kan hjälpa med att ta sig ur situationer där kreativiteten stannat, och
+man behöver lite slumpmässig input för att ta sig vidare.
 
-# Kapitel 4
+### Radikala koncept
+
+De radikala koncepten man kommer på bör inte direkt avfärdas, utan lekas med och
+se var de skulle kunna passa.
+
+## Konceptfasens värderingar
+
+När koncept har valts måste de jämföras och balanceras, för att få en referenspunkt som
+styr utvecklingen i en bra rikting. Värderingsmatriser är ett verktyg för detta.
+
+En metod för konstruktion av värderingsmatriser (Otto och Woods):
+1. Få konsensus om vilka kriterier som ska användas för bedömning av koncept.
+2. Få konsensus om alternativ som ska ingå.
+3. Värdera alternativen. 
+    - Markera det som vid första anblick verkar mest lovande med 0.
+    - Markera resten med + ifall bättre än dessa, - om sämre, 0 om likvärdigt.
+4. Sammanställ resultaten.
+5. Fundera om det går att förbättra de som fick minus.
+6. Besluta om vilka koncept som ska arbetas med.
+
+När designgruppen har identifierat en eller flera tydliga användningsfall kan storyboards
+eller skrivna scenarion tas fram.
+
+# Kapitel 4 - Bearbetningsfasen
+
+I bearbetningsfasen tas funktioner och innehåll fram baserat på koncepten genererade
+under konceptfasen. I slutet ska designen göras till en första prototyp.
+
+## Bearbetningsfasens avsikter 
+
+Ett uppgiftsflöde kan tas fram för att bryta ner scenarierna framtagna under konceptfasen,
+och beskriva användningen i större detalj. 
+
+En första kravspecifikation innebär i detta skede ofta att designgruppen bestämmer vad
+användare ska kunna göra i systemet och vilka data det ska innehålla.
+
 # Kapitel 5
+
