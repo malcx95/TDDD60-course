@@ -176,5 +176,34 @@ Olika mekanismer för hur användare och datorer ska göra saker:
 - _Innehållsstrukturer och innehållsformer_ handlar om hur data och innehåll ordnas och
 struktureras.
 
+### Gränssnittskomponenter
+
+Komponenterna är ofta ganska liknande på de flesta plattformarna, men det är ändå
+viktigt att läsa in sig på riktlinjerna för den plattformen man utvecklar för.
+Ska man utveckla för flera plattformar är det bäst att börja med designen för de
+små skärmarna, och designa för de större skärmarna sist.
+
+De viktigaste komponenterna:
+
+- Knappar, radioknappar eller kryssrutor för enkla val
+- Navigationsmenyer som rullgardinsmenyer
+- Paletter och verktygsfält
+- Poppuppmenyer, t ex kontextmenyer och komboboxar
+- Dragreglage
+- Stora menyer och språngbrädor, vanliga i surfplattor
+- Karuseller
+- Flikar för navigation
+- Formulär med textfält
+- Dialogrutor
+- Drag och släpp
+
+### Principer för gränssnittsdesign
+
+- Handlingsinviter
+    - Designa så att programmet blir självinstruerande och naturligt för användaren
+    - Exempel: dörrhandtag när dörr ska dras, platta när dörren ska tryckas
+- Mentala modeller
+    - LÄGG TILL TEXT
+
 # Kapitel 5
 
