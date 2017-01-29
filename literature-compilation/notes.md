@@ -325,4 +325,80 @@ viktiga saker högt upp eller centralts samt tydlig segmentering av skärmbilden
 
 ### Känsla i interaktionen
 
+Känslan av produkten kan karaktäriseras med föjlande sju interaktivitetsattribut:
+
+- Samtidighet
+    - Samtidig
+    - Sekventiell
+- Kontinuitet
+    - Diskret
+    - Kontinuerlig
+- Förutsägbarhet
+    - Förutsägbar
+    - Oförutsägbar
+- Rörelse
+    - Små rörelser
+    - Stora rörelser
+- Hastighet
+    - Långsam
+    - Snabb
+- Exakthet
+    - Exakt
+    - Ungefärlig
+- Responsivitet
+    - Fördröjd respons
+    - Omedelbar respons
+
+Kan vara bra att skissa med olika alternativ för dessa.
+
+### Datorprototyper
+
+Dessa gör det möjligt att testa designerns utseende och känsla. Man bör göra
+en så bra prototyp som tidsbudgeten tillåter, dock inte mer än nödvändigt
+för att kommunicera, specificera och testa designen.
+
+En evolutionär prototyp är en som byggd i samma programmeringsmiljö som 
+slutprodukten. Detta tar dock oftas mycket längre tid att tillverka än
+en som ska kasseras. Presentationsprogram eller dedikerade prototypsprogram 
+kan användas för prototyper som kasseras.
+
+Designspecifikationer kan skrivas med följande disposition:
+
+- Sammanfattning
+- Personor och kritiska krav
+- Översikt över produkten eller tjänsten
+- Interaktionsramverk
+- Scenarion
+- Skärmbilder och funktioner
+- Visuellt formspråk
+
+En designspecifikation är föreskrivande snarare än föreslående.
+
+## Detaljeringsfasens värderingar
+
+I en avslutande användbarhetstestning tar designgruppen reda på om produkten
+förbättrats jämfört med tidigare. Dessa tester kan likna de som gjordes under
+bearbetningsfasen. Även så kallade reaktionskort kan användas, där testanvändaren
+väljer kort ur en kortlek med egenskaper som beskriver vad de tyckte om systemet.
+
+När designgruppen har en fullt fungerande evolutionär prototyp eller beta-version
+kan fälttest göras.
+
+## Överlämning
+
+När designen är godkänd av intressenterna överlämnas det för implementation. Designers
+kan dock fortfarande behövas, för att lösa små grännsittsfrågor eller producera
+komponenter och media.
+
+## Uppföljning och reflektion
+
+Designprocessen kan utvärdera enligt följande reflektionsmodell:
+
+- Beskrivning
+- Tankar och känslor
+- Utvärdering
+- Analys
+- Generella slutsatser
+- Specifika slutsatser
+
 
