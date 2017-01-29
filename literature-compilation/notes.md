@@ -203,7 +203,126 @@ De viktigaste komponenterna:
     - Designa så att programmet blir självinstruerande och naturligt för användaren
     - Exempel: dörrhandtag när dörr ska dras, platta när dörren ska tryckas
 - Mentala modeller
-    - LÄGG TILL TEXT
+    - Få designen att passa in i användarnas sätt att resonera.
+- Metaforer
+    - T ex datormiljö med skrivbord med mappar och dokument.
+    - Består av källdomän (välbekant, fysiskt kontor), och måldomän (obekant med 
+    metaforiska motsvarigheter till källdomänen).
+- Handlingscykeln
+    - Förenklad bild om hur människor gör saker
+    - Viktiga delar är avståndet en aktör måste överbrygga för att utföra 
+    och sedan utvärdera handlingar.
+    - Leder till principerna: se till att saker syns, sätt upp lämplig konceptuell modell,
+    god mappning mellan stimulus och respons, ge bra återkoppling.
+- Återkoppling
+    - Tydlighet om de konsekvenser som handlingar har.
+- Feed-forward
+    - Ge information om vart användaren kan gå härnäst.
+- Uppmärksamhet
+    - Multimodal design kan förbättra uppmärksamheten, t ex genom att förstärka vissa
+    signaler med ljud eller haptiskt.
+- Nätverkskompatibilitet
+    - Hur nära saker ska placeras till varandra, t ex fysiskt avstånd eller gemensam färgkodning.
+    - För att användaren ska hålla uppmärksamheten på rätt sak.
+- Arbetsminnet
+    - Arbetsminnet lagrar tillfälligt den information som bearbetas.
+    - Avlasta arbetsminnet genom att t ex använda gränssnitt som kontinuerligt visar
+    relevant information, och lägga hjälpinstruktioner direkt på gränssnittet.
+- Fitts lag
+    - Tiden det tar att pricka en målyta är beroende av avståndet till målytan och
+    storleken på målytan.
+    - Knappar måste ha rimlig storlek.
+    - Kontextmeyer kortar avstånd.
+- Hick-Hymans lag
+    - Den tid det tar att göra ett val beror på antalet valmöjligheter.
+    - Tar längre tid bland oväntade/ovanliga val.
+    - Designers bör ta bort onödiga valmöjligheter.
+    - Dela upp valen i kategorier, om möjligt.
 
-# Kapitel 5
+### Pappersprototyper
+
+När designgruppen skissat skärmbildsritningar, webbkartor och flöden är det dags
+att skapa pappersprototyper. Består av papper, kartong och statiska skärmkomponenter.
+
+Det som huvudsakligen testas är flödet, begripligheten och det övergripande konceptet.
+
+Dessa är bra då de inte begränsas av existerande hård-/mjukvara och intressenter
+kan enkelt vara med att modifiera dem tillsammans med designgruppen.
+
+## Bearbetningsfasens värderingar
+
+Det är i testerna av pappersprototyperna som resultaten av bearbetningsfasen värderas.
+Nedan följer en beskrivning av hur tester med pappersprototyper görs.
+
+### Deltagare
+
+Bör vara representativa för målgruppen. I sista hand kollegor, släkt och vänner.
+
+### Förberedelser
+
+Fyra roller behövs:
+
+- En värd som tar emot testanvändaren genom att t ex ge en introduktion eller 
+förtest-enkäter.
+- En facilitator som ger instruktioner och t ex ber användaren tänka högt.
+- En som "spelar" datorn, som simulerar datorns respons på indata.
+- Observatörer som tar anteckningar på index-kort.
+
+Kan vara bra att rotera rollerna om många deltagare ska testa i följd. Samtycke
+från deltagarna är viktigt. Man kan också samla in information om användaren innan
+testet.
+
+### Under testet
+
+I början av testet kan designgruppen ta reda på initiala intryck genom att fråga
+användaren om vad den tror att det är för produkt, och beskriva vad alla synliga
+komponenter i gränssnittet gör. Om detta inte matchar vad som är tänkt, finns
+designbrister.
+
+Testdeltagaren ska testa att utföra uppgifter nedskrivna på papper utan några
+instruktioner. Ingen ska berätta hur saker görs, om inte användaren är helt fast.
+Nästkommande skärmar ska inte vara synliga.
+
+Det som ska observeras är främst vilka vägar som tas och situationer då det blir
+svårt eller obegripligt för användaren.
+
+### Efter testet
+
+Efter testet ställs utvärderande frågor till användaren.
+Anteckningarna samlas på index-kort för enklare analys.
+
+### Granskning
+
+Ett alternativ till testning är granskning, då man istället samlar granskare
+för utvärdering av prototypen utifrån.
+
+# Kapitel 5 - Detaljeringsfasen, överlämning och avslutning
+
+Resultaten av bearbetningsfasens design, tillsammans med en kompletterande datainsamling,
+omsätts i mer specifika kvantitativt mätbara användar- och verksamhetskrav.
+
+## Detaljeringsfasens insikter
+
+Den kompletterande datainsamlingen handlar om att specificera de abstrakta
+kvalitativa kraven från bearbetningsfasen, genom att ta reda på måttsatta
+och kvantitativa krav om mängd, frekvens och längd.
+
+## Detaljeringsfasens avsikter
+
+Efter data är kompletterat ska mätbara användar- och verksamhetskrav definieras,
+t ex "90% av kunderna ska vara nöjda med väntetiden".
+
+## Detaljeringsfasens idéer
+
+I designprocessens sena skede handlar idéarbetet primärt om utseende och känsla.
+
+### Utseende på gränssnittet
+
+Tidigare har de visuella aspekterna varit skissartade, nu är det dock dags att
+besluta om vad produkten ska likna. Det finns många saker att tänka på, exempelvis
+att ordna saker visuellt i grupperingar, ta bort saker som inte behövs, placera
+viktiga saker högt upp eller centralts samt tydlig segmentering av skärmbilden.
+
+### Känsla i interaktionen
+
 
