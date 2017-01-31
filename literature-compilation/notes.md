@@ -74,6 +74,7 @@ det gäller övergripande konceptdesign.
 
 Som konkurrensanalys eller för inspirationens skull kan man göra en genreanalys,
 som i stort sett analyserar vad konkurrenter/förebilder gör:
+
 1. Avgränsa analysen
 2. Kartlägg beståndsdelar
 3. Identifiera syften
@@ -124,6 +125,7 @@ När koncept har valts måste de jämföras och balanseras, för att få en refe
 styr utvecklingen i en bra rikting. Värderingsmatriser är ett verktyg för detta.
 
 En metod för konstruktion av värderingsmatriser (Otto och Woods):
+
 1. Få konsensus om vilka kriterier som ska användas för bedömning av koncept.
 2. Få konsensus om alternativ som ska ingå.
 3. Värdera alternativen. 
@@ -149,5 +151,255 @@ och beskriva användningen i större detalj.
 En första kravspecifikation innebär i detta skede ofta att designgruppen bestämmer vad
 användare ska kunna göra i systemet och vilka data det ska innehålla.
 
-# Kapitel 5
+Designgruppen kan nu efter konceptfasen måla upp en tydligare bild av hur tjänsten ska
+upplevas, genom att t ex rita upp ett målträd med nyckelord, och ett ordmoln med förklarande 
+ord kring nyckelorden.
+
+## Bearbetningsfasens idéer
+
+Om en webbsajt eller hierarkiskt ordnad applikation utvecklas kan en webbkarta göras.
+En sådan karta består av noder och bågar som representerar sidor och länkar, samtidigt
+som storlek eller mättnad på noderna kan användas för att kommunicera vikt. Detta kan
+ge insikt i hur enkelt eller effektivt en applikation kan bli, genom att analysera
+strukturen hos kartan.
+
+Om designgruppen vet vilka funktioner, vilket innehåll och vilken struktur applikationen
+ska ha är det naturligt att börja med gränssnittet. Dessa kan skissas exempelvis genom att
+illustrera de scenarion eller uppgiftsdiagram gruppen tagit fram, eller kombinera
+skärmbildsritningar med webbkartor för att skapa ett gränssnittsflöde.
+
+### Mekanismer och strukturer i gränssnitt
+
+Olika mekanismer för hur användare och datorer ska göra saker:
+
+- _Interaktionsmekanismer_ handlar om vad som kan göras med ett objekt.
+- _Kommunikationsmekanismer_ används för att säga något i dialoger mellan aktörer.
+- _Innehållsstrukturer och innehållsformer_ handlar om hur data och innehåll ordnas och
+struktureras.
+
+### Gränssnittskomponenter
+
+Komponenterna är ofta ganska liknande på de flesta plattformarna, men det är ändå
+viktigt att läsa in sig på riktlinjerna för den plattformen man utvecklar för.
+Ska man utveckla för flera plattformar är det bäst att börja med designen för de
+små skärmarna, och designa för de större skärmarna sist.
+
+De viktigaste komponenterna:
+
+- Knappar, radioknappar eller kryssrutor för enkla val
+- Navigationsmenyer som rullgardinsmenyer
+- Paletter och verktygsfält
+- Poppuppmenyer, t ex kontextmenyer och komboboxar
+- Dragreglage
+- Stora menyer och språngbrädor, vanliga i surfplattor
+- Karuseller
+- Flikar för navigation
+- Formulär med textfält
+- Dialogrutor
+- Drag och släpp
+
+### Principer för gränssnittsdesign
+
+- Handlingsinviter
+    - Designa så att programmet blir självinstruerande och naturligt för användaren
+    - Exempel: dörrhandtag när dörr ska dras, platta när dörren ska tryckas
+- Mentala modeller
+    - Få designen att passa in i användarnas sätt att resonera.
+- Metaforer
+    - T ex datormiljö med skrivbord med mappar och dokument.
+    - Består av källdomän (välbekant, fysiskt kontor), och måldomän (obekant med 
+    metaforiska motsvarigheter till källdomänen).
+- Handlingscykeln
+    - Förenklad bild om hur människor gör saker
+    - Viktiga delar är avståndet en aktör måste överbrygga för att utföra 
+    och sedan utvärdera handlingar.
+    - Leder till principerna: se till att saker syns, sätt upp lämplig konceptuell modell,
+    god mappning mellan stimulus och respons, ge bra återkoppling.
+- Återkoppling
+    - Tydlighet om de konsekvenser som handlingar har.
+- Feed-forward
+    - Ge information om vart användaren kan gå härnäst.
+- Uppmärksamhet
+    - Multimodal design kan förbättra uppmärksamheten, t ex genom att förstärka vissa
+    signaler med ljud eller haptiskt.
+- Nätverkskompatibilitet
+    - Hur nära saker ska placeras till varandra, t ex fysiskt avstånd eller gemensam färgkodning.
+    - För att användaren ska hålla uppmärksamheten på rätt sak.
+- Arbetsminnet
+    - Arbetsminnet lagrar tillfälligt den information som bearbetas.
+    - Avlasta arbetsminnet genom att t ex använda gränssnitt som kontinuerligt visar
+    relevant information, och lägga hjälpinstruktioner direkt på gränssnittet.
+- Fitts lag
+    - Tiden det tar att pricka en målyta är beroende av avståndet till målytan och
+    storleken på målytan.
+    - Knappar måste ha rimlig storlek.
+    - Kontextmeyer kortar avstånd.
+- Hick-Hymans lag
+    - Den tid det tar att göra ett val beror på antalet valmöjligheter.
+    - Tar längre tid bland oväntade/ovanliga val.
+    - Designers bör ta bort onödiga valmöjligheter.
+    - Dela upp valen i kategorier, om möjligt.
+
+### Pappersprototyper
+
+När designgruppen skissat skärmbildsritningar, webbkartor och flöden är det dags
+att skapa pappersprototyper. Består av papper, kartong och statiska skärmkomponenter.
+
+Det som huvudsakligen testas är flödet, begripligheten och det övergripande konceptet.
+
+Dessa är bra då de inte begränsas av existerande hård-/mjukvara och intressenter
+kan enkelt vara med att modifiera dem tillsammans med designgruppen.
+
+## Bearbetningsfasens värderingar
+
+Det är i testerna av pappersprototyperna som resultaten av bearbetningsfasen värderas.
+Nedan följer en beskrivning av hur tester med pappersprototyper görs.
+
+### Deltagare
+
+Bör vara representativa för målgruppen. I sista hand kollegor, släkt och vänner.
+
+### Förberedelser
+
+Fyra roller behövs:
+
+- En värd som tar emot testanvändaren genom att t ex ge en introduktion eller 
+förtest-enkäter.
+- En facilitator som ger instruktioner och t ex ber användaren tänka högt.
+- En som "spelar" datorn, som simulerar datorns respons på indata.
+- Observatörer som tar anteckningar på index-kort.
+
+Kan vara bra att rotera rollerna om många deltagare ska testa i följd. Samtycke
+från deltagarna är viktigt. Man kan också samla in information om användaren innan
+testet.
+
+### Under testet
+
+I början av testet kan designgruppen ta reda på initiala intryck genom att fråga
+användaren om vad den tror att det är för produkt, och beskriva vad alla synliga
+komponenter i gränssnittet gör. Om detta inte matchar vad som är tänkt, finns
+designbrister.
+
+Testdeltagaren ska testa att utföra uppgifter nedskrivna på papper utan några
+instruktioner. Ingen ska berätta hur saker görs, om inte användaren är helt fast.
+Nästkommande skärmar ska inte vara synliga.
+
+Det som ska observeras är främst vilka vägar som tas och situationer då det blir
+svårt eller obegripligt för användaren.
+
+### Efter testet
+
+Efter testet ställs utvärderande frågor till användaren.
+Anteckningarna samlas på index-kort för enklare analys.
+
+### Granskning
+
+Ett alternativ till testning är granskning, då man istället samlar granskare
+för utvärdering av prototypen utifrån.
+
+# Kapitel 5 - Detaljeringsfasen, överlämning och avslutning
+
+Resultaten av bearbetningsfasens design, tillsammans med en kompletterande datainsamling,
+omsätts i mer specifika kvantitativt mätbara användar- och verksamhetskrav.
+
+## Detaljeringsfasens insikter
+
+Den kompletterande datainsamlingen handlar om att specificera de abstrakta
+kvalitativa kraven från bearbetningsfasen, genom att ta reda på måttsatta
+och kvantitativa krav om mängd, frekvens och längd.
+
+## Detaljeringsfasens avsikter
+
+Efter data är kompletterat ska mätbara användar- och verksamhetskrav definieras,
+t ex "90% av kunderna ska vara nöjda med väntetiden".
+
+## Detaljeringsfasens idéer
+
+I designprocessens sena skede handlar idéarbetet primärt om utseende och känsla.
+
+### Utseende på gränssnittet
+
+Tidigare har de visuella aspekterna varit skissartade, nu är det dock dags att
+besluta om vad produkten ska likna. Det finns många saker att tänka på, exempelvis
+att ordna saker visuellt i grupperingar, ta bort saker som inte behövs, placera
+viktiga saker högt upp eller centralts samt tydlig segmentering av skärmbilden.
+
+### Känsla i interaktionen
+
+Känslan av produkten kan karaktäriseras med föjlande sju interaktivitetsattribut:
+
+- Samtidighet
+    - Samtidig
+    - Sekventiell
+- Kontinuitet
+    - Diskret
+    - Kontinuerlig
+- Förutsägbarhet
+    - Förutsägbar
+    - Oförutsägbar
+- Rörelse
+    - Små rörelser
+    - Stora rörelser
+- Hastighet
+    - Långsam
+    - Snabb
+- Exakthet
+    - Exakt
+    - Ungefärlig
+- Responsivitet
+    - Fördröjd respons
+    - Omedelbar respons
+
+Kan vara bra att skissa med olika alternativ för dessa.
+
+### Datorprototyper
+
+Dessa gör det möjligt att testa designerns utseende och känsla. Man bör göra
+en så bra prototyp som tidsbudgeten tillåter, dock inte mer än nödvändigt
+för att kommunicera, specificera och testa designen.
+
+En evolutionär prototyp är en som byggd i samma programmeringsmiljö som 
+slutprodukten. Detta tar dock oftas mycket längre tid att tillverka än
+en som ska kasseras. Presentationsprogram eller dedikerade prototypsprogram 
+kan användas för prototyper som kasseras.
+
+Designspecifikationer kan skrivas med följande disposition:
+
+- Sammanfattning
+- Personor och kritiska krav
+- Översikt över produkten eller tjänsten
+- Interaktionsramverk
+- Scenarion
+- Skärmbilder och funktioner
+- Visuellt formspråk
+
+En designspecifikation är föreskrivande snarare än föreslående.
+
+## Detaljeringsfasens värderingar
+
+I en avslutande användbarhetstestning tar designgruppen reda på om produkten
+förbättrats jämfört med tidigare. Dessa tester kan likna de som gjordes under
+bearbetningsfasen. Även så kallade reaktionskort kan användas, där testanvändaren
+väljer kort ur en kortlek med egenskaper som beskriver vad de tyckte om systemet.
+
+När designgruppen har en fullt fungerande evolutionär prototyp eller beta-version
+kan fälttest göras.
+
+## Överlämning
+
+När designen är godkänd av intressenterna överlämnas det för implementation. Designers
+kan dock fortfarande behövas, för att lösa små grännsittsfrågor eller producera
+komponenter och media.
+
+## Uppföljning och reflektion
+
+Designprocessen kan utvärdera enligt följande reflektionsmodell:
+
+- Beskrivning
+- Tankar och känslor
+- Utvärdering
+- Analys
+- Generella slutsatser
+- Specifika slutsatser
+
 
