@@ -354,7 +354,7 @@ Kan vara bra att skissa med olika alternativ för dessa.
 
 ### Datorprototyper
 
-Dessa gör det möjligt att testa designerns utseende och känsla. Man bör göra
+Dessa gör det möjligt att testa designens utseende och känsla. Man bör göra
 en så bra prototyp som tidsbudgeten tillåter, dock inte mer än nödvändigt
 för att kommunicera, specificera och testa designen.
 

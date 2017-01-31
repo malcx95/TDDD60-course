@@ -6,7 +6,7 @@
 \pagestyle{fancy}
 \lhead{Malcolm Vigren}
 \rhead{D3.c}
-\geometry{margin=3cm}
+\geometry{margin=2.4cm}
 \usepackage{parskip} 
 \begin{document}
 \pagenumbering{gobble}
@@ -37,8 +37,8 @@ konkurrenter eller förebilder gör. För att sätta slumpen i systemet och hjä
 när kreativiteten stannat kan man
 använda sig av olika metoder för generering av idéer, som brainstorming, metod
 635, funktionsdriven divergens, kvalitetsdriven divergens eller metafordriven
-divergens. Dessa tekniker genererar radikala koncept, som inte bör direkt
-avfärdas utan bör lekas med och se var de skulle passa.
+divergens. Dessa tekniker genererar radikala koncept, som bör inte direkt
+avfärdas utan lekas med och se var de skulle passa.
 
 När koncept har valts måste de jämföras och balanseras, för att få en referenspunkt som
 styr utvecklingen i en bra rikting. Värderingsmatriser är ett verktyg för detta.
@@ -48,8 +48,75 @@ eller skrivna scenarion tas fram.
 \subsection*{Bearbetningsfasen}
 
 I bearbetningsfasen tas funktioner och innehåll fram baserat på koncepten genererade
-under konceptfasen. I slutet ska designen göras till en första prototyp. 
-Ett uppgiftsflöde kan tas fram för att bryta ner scenarierna framtagna under konceptfasen,
-och beskriva användningen i större detalj. 
+under konceptfasen. I slutet ska designen ha gjorts till en första prototyp.
+Designgruppen kan alltså nu efter konceptfasen måla upp en tydligare bild av
+hur produkten eller tjänsten ska upplevas. Sätt som detta kan uppnås på är
+exempelvis via uppritning av målträd med nyckelord, eller om applikationen är
+en webbsida eller är hiearkiskt ordnad, kan en webbkarta göras, som beskriver
+navigationsstrukturen av programmet.
+
+Om designgruppen vet vilka funktioner, vilket innehåll och vilken struktur applikationen
+ska ha är det passande att börja med gränssnittet. Detta kan exempelvis baseras
+på de scenarion gruppen tagit fram. Saker som bör tänkas igenom är
+bland annat de mekanismer gränssnittet använder för att få saker gjorda, och
+vilka sorters gränssnittskomponenter som ska användas för dessa. Exempelvis kan
+enkla val i gränssnittet utföras av knappar, radioknappar eller kryssrutor.
+
+Det finns också många principer att hålla sig till gällande gränssnittsdesign.
+Man använder till exempel handlingsinviter för att göra programmet
+självinstruerande och naturligt. Metaforer kan användas för att göra
+upplevelsen mer bekant genom liknelse med t ex ett fysiskt kontor. Återkoppling
+ger tydlighet hos handlingars konsekvenser, och "Feed-forward" används för att
+guida användaren om vad som finns att komma.
+
+För att testa validiteten hos sin design används ofta pappersprototyper, som
+består av skärmkomponenter gjorda i papper och kartong. Dessa är bra då de inte
+är begränsade av nuvarande hård- och mjukvara och är enkla att modifiera
+tillsammans med intressenter. Denna metod testar huvudsakligen flödet,
+begripligheten och det övergripande konceptet, där deltagarna är representativa
+för målgruppen.
+
+Tester med pappersprototyper inleds med frågor om vad deltagaren tror att det är för
+produkt och beskriva vad alla komponenter i gränssnittet gör. Designbrister
+syns här om deltagarens beskrivning inte matchar vad gruppen tänkt. Deltagaren
+blir sedan ombedd att utföra uppgifter nedskrivna på papper utan instruktioner,
+där nästkommande skärmar inte är synliga. Det som observeras hos deltagaren är
+främst vilka vägar som tas och i vilka situationer svårigheter uppstår. Efter
+testet ställs utvärderande frågor och anteckningar samlas på indexkort.
+
+\subsection*{Detaljeringsfasen, överlämning och avslutning}
+
+Resultaten av bearbetningsfasens design, tillsammans med en kompletterande datainsamling,
+görs till specifika mätbara användar- och verksamhetskrav
+under detaljeringsfasen. Den kompletterande datainsamlingen 
+specificerar de abstrakta kvalitativa kraven från bearbetningsfasen, genom
+undersökning av krav om mängd, frekvens och längd. Efter detta definieras
+märbara användar- och verksamhetskrav.
+
+Utseende och känsla är vad detaljeringsfasens idéarbete främst handlar om.
+Tidigare har de visuella delarna varit skissartade, men nu ska beslut om vad
+produkten ska likna fattas. Exempel på aspekter att tänka på är visuell ordning
+av saker i grupperingar, borttagning av saker som inte behövs, placering av viktiga saker
+centralt eller högt upp samt tydlig segmentering av skärmbilden. Olika
+alternativ av interaktivitetsattributen \textit{samtidighet,
+kontinuitet, förutsägbarhet, rörelse, hastighet, exakthet} och
+\textit{responsivitet}, bör också övervägas.
+
+Datorprototyper gör det möjligt att testa designens utseende och känsla. En så
+bra prototyp som tidsbudgeten tillåter bör göras, dock inte mer än vad som
+krävs för kommunikation, specifikation och testning av designen. En evolutionär
+prototyp är en prototyp som är byggd i samma programmeringsmiljö som
+slutprodukten. Denna typ av prototyp tar dock ofta längre tid att tillverka än
+en som ska kasseras.
+
+Designgruppen avgör om produkten förbättrats jämfört med tidigare i en
+avslutande använd-barhetstestning, som liknar de tester som utfördes under
+bearbetningsfasen. Även så kallade reaktionskort kan användas, där testanvändaren
+väljer kort ur en kortlek med egenskaper som beskriver vad de tyckte om systemet.
+
+När designen är godkänd av intressenterna överlämnas det för implementation. Designers
+kan dock fortfarande behövas, för att lösa små grännsittsfrågor eller producera
+komponenter och media. Varje designprojekt bör dessutom avslutas med en
+reflektion om de lärdomar som gjorts.
 
 \end{document}
