@@ -58,8 +58,9 @@ som ska tas fram.
 
 ### Position
 
-Huruvida den tänkta produkten/tjänsten ska anta en dominerande position i användarens uppmärksamhet,
-om den ska användas flyktigt eller vara gömd i bakgrunden är en annan sak att tänka på när
+Huruvida den tänkta produkten/tjänsten ska anta en dominerande
+position i användarens uppmärksamhet, om den ska användas flyktigt
+eller vara gömd i bakgrunden är en annan sak att tänka på när
 det gäller övergripande konceptdesign.
 
 - Dominerande position
@@ -71,7 +72,7 @@ det gäller övergripande konceptdesign.
 
 ### Genrer, konkurrenter och förebilder
 
-Som konkurrensanalys eller för inspirationens skulle kan man göra en genreanalys,
+Som konkurrensanalys eller för inspirationens skull kan man göra en genreanalys,
 som i stort sett analyserar vad konkurrenter/förebilder gör:
 1. Avgränsa analysen
 2. Kartlägg beståndsdelar
@@ -119,7 +120,7 @@ se var de skulle kunna passa.
 
 ## Konceptfasens värderingar
 
-När koncept har valts måste de jämföras och balanceras, för att få en referenspunkt som
+När koncept har valts måste de jämföras och balanseras, för att få en referenspunkt som
 styr utvecklingen i en bra rikting. Värderingsmatriser är ett verktyg för detta.
 
 En metod för konstruktion av värderingsmatriser (Otto och Woods):
