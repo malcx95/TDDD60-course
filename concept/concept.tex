@@ -3,11 +3,16 @@
 \usepackage{textcomp}
 \usepackage{geometry}
 \usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage{parskip} 
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage{booktabs}
 \pagestyle{fancy}
 \lhead{Malcolm Vigren}
 \rhead{D3.c}
 \geometry{margin=3cm}
-\usepackage{parskip} 
+
 \begin{document}
 \section*{Koncept för Snowslide Car Edition}
 
@@ -74,6 +79,13 @@ Toms mål som konceptet bidrar till:
 
 Målgrupper: Regelbundna användare och föräldrar med barn.
 
+Exempel på storyboard:
+
+\begin{center}
+\includegraphics[width=15cm]{images/4u.jpg}
+\end{center}
+
+\newpage
 \subsubsection*{Koncept 2: Snowslide Connected}
 
 Med Snowslide Connected begränsas inte medieupplevelsen till den bilen man
@@ -127,14 +139,22 @@ Toms mål som konceptet bidrar till:
 Målgrupper: Personer som gillar att interagera med andra människor och folk som
 vill ha kul i bilen.
 
-\subsubsection*{Koncept 3: SnowslideAssistant}
+\newpage
+Exempel på storyboard:
+
+\begin{center}
+\includegraphics[width=15cm]{images/connected.jpg}
+\end{center}
+
+\newpage
+\subsubsection*{Koncept 3: Snowslide Assistant}
 
 Att interagera med funktionerna med ett underhållningssystem i bilen som förare
 kan vara farligt. Samtidigt kan det kännas onödigt att behöva stanna bilen på
 motorvägen bara för att välja en ny spellista i Spotify, eller knappa in en ny
 destination på GPS:en.
 
-Med SnowslideAssistant kan man helt och hållet interagera med Snowslide Car
+Med Snowslide Assistant kan man helt och hållet interagera med Snowslide Car
 Edition utan att behöva titta bort från vägen. Med en knapp på ratten aktiveras
 en röstassistent, med vilken man kan styra alla systemets funktioner.
 Exempelvis kan man fråga ``Var finns närmaste bensinmack?'', och systemet kan då
@@ -160,10 +180,47 @@ Pias mål som konceptet bidrar till:
         sina möten. 
 \end{itemize}
 
+Målgrupper: Förare och passagerare som inte kan interagera med skärmar men ändå
+vill kunna få den information de vill ha.
 
+\newpage
+Exempel på storyboard:
+
+\begin{center}
+\includegraphics[width=15cm]{images/assistant.jpg}
+\end{center}
+
+\newpage
 \subsection*{Värderingsmatris}
 
-% TODO text
+Designmålen väljs som kriterier, och Snowslide4U väljs som utgångspunkt för
+vär-deringsmatrisen:
+
+\renewcommand*{\arraystretch}{1.4}
+\begin{longtable}[l]{p{4cm} c c c}
+    \textbf{Kriterie} & \textbf{Snowslide4U} & \textbf{Connected} & \textbf{Assistant} \\ \midrule
+    Bekvämlighet                                            & 0 & 0  & 0  \\ \midrule
+    Lugnar barnen                                           & 0 & +  & -- \\ \midrule
+    Begränsar barnens \\ mediekonsumtion                    & 0 & -- & -- \\ \midrule
+    Gör att barnen inte ser något olämpligt                 & 0 & -- & -- \\ \midrule
+    Sparar tid                                              & 0 & -- & +  \\ \midrule
+    Effektiv \\ informationssökning                         & 0 & 0  & +  \\ \midrule
+    Imponerar på kunder                                     & 0 & +  & +  \\ \midrule
+    Ger Pia förströelse                                     & 0 & +  & 0  \\ \midrule
+    Ger information om platser i närheten                   & 0 & +  & +  \\ \midrule
+    Håller Tom sysselsatt                                   & 0 & +  & -- \\ \midrule
+    Tom kan ta reda på var man kan skaffa koola grejer      & 0 & 0  & -- \\ \midrule
+    Tom får kolla på favoritserier                          & 0 & -- & -- \\ \midrule
+    Tom kan snabbt gå vidare om han inte hittar något kul   & 0 & 0  & -- \\ \midrule
+    \textbf{Totalt antal + }      & \textbf{0} & \textbf{5}  & \textbf{4} \\ \midrule
+    \textbf{Totalt antal --}      & \textbf{0} & \textbf{4}  & \textbf{7} \\ \midrule
+    \textbf{Totalt}      & \textbf{0} & \textbf{1}  & \textbf{-3} \\
+\end{longtable}
+
+Värderingsmatrisen visar att Snowslide Connected uppfyller designmålen mer än
+Snowslide 4U och Snowslide Assistant. Vissa av funktionerna som Snowslide
+Connected ger är också mer nytänkande och häftiga, vilket är varför detta
+koncept väljs för att genomsyra produkten.
 
 \subsection*{Gränssnittsflöde}
 % TODO text
