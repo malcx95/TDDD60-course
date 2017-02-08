@@ -139,6 +139,12 @@ Toms mål som konceptet bidrar till:
 Målgrupper: Personer som gillar att interagera med andra människor och folk som
 vill ha kul i bilen.
 
+En konsekvens av detta koncept kan vara att användarens integritet inskränks,
+om t ex bilens kameror eller GPS-position delas med folk som inte har med den
+informationen att göra. Vid realisering av detta koncept bör därför
+implementera någon form av samtyckeskontroll med användaren, samt utförlig
+säkerhet för att se till att informationen inte kan stjälas av en hackare.
+
 \newpage
 Exempel på storyboard:
 
@@ -194,9 +200,9 @@ Exempel på storyboard:
 \subsection*{Värderingsmatris}
 
 Designmålen väljs som kriterier, och Snowslide4U väljs som utgångspunkt för
-vär-deringsmatrisen:
+\\värderingsmatrisen:
 
-\renewcommand*{\arraystretch}{1.4}
+\renewcommand*{\arraystretch}{1.3}
 \begin{longtable}[l]{p{4cm} c c c}
     \textbf{Kriterie} & \textbf{Snowslide4U} & \textbf{Connected} & \textbf{Assistant} \\ \midrule
     Bekvämlighet                                            & 0 & 0  & 0  \\ \midrule
@@ -212,15 +218,16 @@ vär-deringsmatrisen:
     Tom kan ta reda på var man kan skaffa koola grejer      & 0 & 0  & -- \\ \midrule
     Tom får kolla på favoritserier                          & 0 & -- & -- \\ \midrule
     Tom kan snabbt gå vidare om han inte hittar något kul   & 0 & 0  & -- \\ \midrule
+    Enkelhet att implementera                               & 0 & --  & 0 \\ \midrule
     \textbf{Totalt antal + }      & \textbf{0} & \textbf{5}  & \textbf{4} \\ \midrule
-    \textbf{Totalt antal --}      & \textbf{0} & \textbf{4}  & \textbf{7} \\ \midrule
-    \textbf{Totalt}      & \textbf{0} & \textbf{1}  & \textbf{-3} \\
+    \textbf{Totalt antal --}      & \textbf{0} & \textbf{5}  & \textbf{7} \\ \midrule
+    \textbf{Totalt}      & \textbf{0} & \textbf{0}  & \textbf{-3} \\
 \end{longtable}
 
-Värderingsmatrisen visar att Snowslide Connected uppfyller designmålen mer än
-Snowslide 4U och Snowslide Assistant. Vissa av funktionerna som Snowslide
-Connected ger är också mer nytänkande och häftiga, vilket är varför detta
-koncept väljs för att genomsyra produkten.
+Värderingsmatrisen visar att Snowslide Connected och Snowslide4U
+uppfyller designmålen mer än Snowslide Assistant. Det känns som att Snowslide4U
+är mer flexibel och realistisk än Snowslide Connected, vilket är
+varför Snowslide4U väljs som koncept att vidareutveckla.
 
 \subsection*{Gränssnittsflöde}
 % TODO text
