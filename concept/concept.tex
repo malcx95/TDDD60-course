@@ -21,6 +21,8 @@ Pia identifieras som den primära personan, och Tom som den sekundära.
 
 \subsection*{Radikala koncept}
 
+3 radikala koncept utvecklades i detta designuppdrag.
+
 \subsubsection*{Koncept 1: Snowslide4U}
 Med Snowslide4U kan varje användare till underhållningssystemet ställa in sina
 egna profiler för sin underhållning. Exempelvis kan en användare spara sina
@@ -39,8 +41,8 @@ filmer eller speltid för spel per dag.
 Profilerna kan vid uppstart av systemet tilldelas till vissa säten i bilen.
 Detta kan enkelt justeras i gränssnittet genom att varje persons profil syns som
 ett ansikte som man kan dra runt i bilen för att tilldelas vissa säten.
-Barnprofilerna kan inte justera sina positioner i bilen, som så önskas av
-föräldrarna.
+Användare av barnprofilerna kan inte justera sina positioner i bilen, så att de inte helt
+enkelt kan använda föräldrarnas profiler.
 
 Pias mål som konceptet bidrar till:
 \begin{itemize}
@@ -79,10 +81,13 @@ Toms mål som konceptet bidrar till:
 
 Målgrupper: Regelbundna användare och föräldrar med barn.
 
+Inga negativa konsekvenser kunde identifieras för detta koncept, som inte rör
+all bilunderhållning.
+
 Exempel på storyboard:
 
 \begin{center}
-\includegraphics[width=15cm]{images/4u.jpg}
+\includegraphics[width=14cm]{images/4u.jpg}
 \end{center}
 
 \newpage
@@ -143,7 +148,7 @@ En konsekvens av detta koncept kan vara att användarens integritet inskränks,
 om t ex bilens kameror eller GPS-position delas med folk som inte har med den
 informationen att göra. Vid realisering av detta koncept bör därför
 implementera någon form av samtyckeskontroll med användaren, samt utförlig
-säkerhet för att se till att informationen inte kan stjälas av en hackare.
+säkerhet för att se till att informationen inte kan stjälas av hackare.
 
 \newpage
 Exempel på storyboard:
@@ -189,6 +194,12 @@ Pias mål som konceptet bidrar till:
 Målgrupper: Förare och passagerare som inte kan interagera med skärmar men ändå
 vill kunna få den information de vill ha.
 
+En möjlig konsekvens av detta är att man kanske tänker för mycket på att få
+röstassistenten att förstå vad man säger, vilket kan göra att man blir
+distraherad från körningen. Vid realiseringen bör man därför se till att
+röstigenkänningstekniken som används är så bra som möjligt, vilket minskar
+risken för frustration hos föraren.
+
 \newpage
 Exempel på storyboard:
 
@@ -199,8 +210,8 @@ Exempel på storyboard:
 \newpage
 \subsection*{Värderingsmatris}
 
-Designmålen väljs som kriterier, och Snowslide4U väljs som utgångspunkt för
-\\värderingsmatrisen:
+Kriterierna i värderingsmatrisen inspireras av designmålen för Pia och Tom,
+och Snowslide4U väljs som utgångspunkt för värderingsmatrisen:
 
 \renewcommand*{\arraystretch}{1.3}
 \begin{longtable}[l]{p{4cm} c c c}
@@ -229,9 +240,22 @@ uppfyller designmålen mer än Snowslide Assistant. Det känns som att Snowslide
 är mer flexibel och realistisk än Snowslide Connected, vilket är
 varför Snowslide4U väljs som koncept att vidareutveckla.
 
+\newpage
 \subsection*{Gränssnittsflöden}
 
-\subsubsection*{Flöde för passagerare}
-\subsubsection*{Flöde för förare}
+Gränssnittsflödena för Snowslide4U delades upp mellan hur det ser ut för passagerare och
+förare. Skillnaderna mellan dessa är mest vid uppstart av systemet, då det är
+då föraren tilldelar profilerna till sätena.
+
+\textbf{Flöde för passagerare:}
+\begin{center}
+\includegraphics[width=14cm]{images/passflow.jpg}
+\end{center}
+
+\newpage
+\textbf{Flöde för förare:}
+\begin{center}
+\includegraphics[width=14cm]{images/driverflow.jpg}
+\end{center}
 
 \end{document}
