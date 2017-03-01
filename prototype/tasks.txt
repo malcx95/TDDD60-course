@@ -1,0 +1,13 @@
+
+Du är sugen på att lyssna på musik. Spela upp din spellista "Mina favoriter" så
+att låtarna blandas.
+
+Du ska precis åka på bilresa och sitter i framsätet. När systemet startar möts
+du av vyn framför dig, och systemet saknar en profil för ditt barn Lisa som
+sitter där bak till höger. Skapa en användarprofil för Lisa, med namnet "Lisa",
+blå profilbild. Gör vidare så att profilen blir en barnprofil, där maximala
+tillåtna åldersgränsen är 9 år, får max spela spel 4 timmar per dag, får titta
+på film max 4 timmar per dag, och får inte köpa saker i affären.
+
+Du vill skapa en ny profil för din syster Lisa. Skapa därför en profil som
+heter "Lisa", med blå profilbild.
