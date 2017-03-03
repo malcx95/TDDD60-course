@@ -29,21 +29,71 @@
 
 \subsection*{Sammanfattning}
 \subsection*{Metod}
-\subsubsection*{Vilka som testades}
+\subsubsection*{Testpersoner}
+
 2 personer testades. Personen som agerade som Pia var mycket representativ för
 sin roll. Personen som spelade Tom var dock mindre representativ, då hon var en
 kvinna i 20-års-åldern. Detta bedömdes dock vara acceptabelt, då Tom är
 sekundär persona som är relativt datorvan, och en 90-talist borde ha ungefär
 liknande nivå av datorvana.
 
-\begin{longtable}[l]{c c c p{4cm} c}
-    \textbf{Testperson} & \textbf{Persona} & \textbf{Ålder} &
-    \centering \textbf{Datoranvändning (tim/vecka)} & \textbf{Kön} \\ \midrule
-    1 & Pia & Över 40 & \centering 40--50 & Kvinna \\ \midrule
-    2 & Tom & 18--25 & \centering 30--40 & Kvinna \\ \midrule
+\begin{longtable}[l]{c c c c}
+    \textbf{Testperson} & \textbf{Persona som representerades} & \textbf{Ålder} & \textbf{Kön} \\ \midrule
+    1 & Pia & 40--50 & Kvinna \\ \midrule
+    2 & Tom & 18--25 & Kvinna \\ \midrule
 \end{longtable}
 
+\subsubsection*{Utförande}
+
+Innan testet gjordes en introduktion, där det förklarades vad detta test skulle
+gå ut på. I samband med detta fick deltagarna svara på frågor om deras
+datorvana.
+
+Testet startades sedan genom att prototypen startades utan förklaring om vad
+det var för produkt det var en prototyp av. Deltagarna blev tillfrågade om vad
+de trodde att det var för produkt och vad det skulle användas till,
+baserat på hur huvudmenyn ser ut. Efter detta fick deltagarna svaren på
+frågorna, så att de förstod vad prototypen var innan de började. Efter detta
+fick deltagarna börja utföra uppgifterna, under uppmaningen att tänka högt.
+
+Uppgifterna som användarna skulle utföra var nedskrivna på lappar. Den första
+uppgiften var likadan för båda deltagarna, som gick ut att spela upp en
+spellista. I den andra uppgiften skulle en användarprofil ställas in, den ena
+personen fick ställa in en barnprofil för ett barn (för personan Pia), och den
+andra fick ställa in en profil utan föräldrarprivilegier (för personan Tom).
+
+Efter testet ställdes utvärderande frågor om deltagarnas upplevelse.
+
+\subsubsection*{Data som insamlades}
+
+Förutom svaren på frågorna så antecknades huruvida varje testperson klarade
+uppgiften, om användaren försökte ta andra vägar än de som var tänkta,
+eventuella frustrationer de visade samt övriga problem som användarna hade.
+
 \subsection*{Större fynd och rekommendationer}
+
+De största problemen som upptäcktes:
+
+\begin{itemize}
+    \item Fliksystemet för profilinmatning var otydlig.
+    \item Otydligt hur en profil skulle sparas.
+\end{itemize}
+
+Det användarna båda hade problem med var vyn för att skapa profiler. När de
+skulle fylla i mer information än bara namnet så trodde båda att man skulle
+trycka på "Klar" för att komma till nästa uppgifter, där det i själva verket
+fanns ett fliksystem för olika typer av information, och att "Klar" sparade
+profilen som skapades. Båda tyckte med andra ord att det var otydligt hur man
+matade in olika typer av information och sedan sparade.
+
+En lösning till detta problem vore att göra om texten på "Klar"-knappen till
+"Spara", och att ha alla alternativ för profilen som en scrollvy med
+undermenyer, för att göra det tydligt att man kan ställa in mer än bara namnet.
+
+Vid den första uppgiften trodde båda testpersonerna att det var meningen att
+musiken skulle spelas i Spotify, istället för musik-appen, men det är nog inget
+problem med designen så mycket som ett problem med uppgiftsinstruktionen.
+
 \subsection*{Detaljerade fynd och rekommendationer}
 
 \end{document}
