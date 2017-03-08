@@ -28,6 +28,14 @@
 \end{longtable}
 
 \subsection*{Sammanfattning}
+
+Syftet med dessa användarbarhetstest är att testa hur användarvänlig en
+prototyp för Snowslide Car Edition är. Det som uppgifterna som testades var
+uppspelning av en spellista och skapande av ny användarprofil. Två personer
+deltog i testet, och båda uppgifterna slutfördes av båda personerna. I den
+andra uppgiften fann båda personerna vyn ointuitiv, och slutförde uppgiften
+ineffektivt.
+
 \subsection*{Metod}
 \subsubsection*{Testpersoner}
 
@@ -141,26 +149,58 @@ testpersonerna försökte öppna Spotify-appen innan de insåg att "Min
 Musik"-appen skulle användas, men använde sedan den tänkta vägen för att spela
 upp den angivna spellistan.
 
-\subsubsection*{Uppgift 2.1 - Skapa ny profil (anpassad för barn)}
+\subsubsection*{Uppgift 2.1 - Skapa ny profil (anpassad för föräldrar)}
+
+\textit{%
+Du ska precis åka på bilresa och sitter i framsätet. När systemet startar möts
+du av vyn framför dig, och systemet saknar en profil för ditt barn Lisa som
+sitter där bak till höger. Skapa en användarprofil för Lisa, med namnet "Lisa",
+blå profilbild. Gör vidare så att profilen blir en barnprofil, där maximala
+tillåtna åldersgränsen är 9 år, får max spela spel 4 timmar per dag, får titta
+på film max 4 timmar per dag, och får inte köpa saker i affären.
+}
+
+Testperson 1 gjorde detta test, och klarade uppgiften, dock inte utan problem.
+Först fylldes namnet i, och sedan trycktes "Klar"-knappen innan resten av
+informationen var ifylld. Uppgiften startades därför om, eftersom prototypen
+inte kontrollerade om det var rätt ifyllt. Nu insåg testpersonen hur
+informationen är tänkt att fyllas i, så uppgiften slutfördes korrekt på detta
+försök.
+
+Under uppgiften uttryckte personen frustration över hur det inte fanns en
+"Spara"-knapp, och att det var otydligt hur man fyllde i resten av
+informationen. En rekommendation som man kan ta från detta är att ändra texten
+från "Klar"-knappen till "Spara", samt att ha alternativen i en hierarkisk
+scrollmeny istället för ett fliksystem.
+
+\subsubsection*{Uppgift 2.2 - Skapa ny profil (anpassad för barn)}
 
 \textit{%
 Du vill skapa en ny profil för din syster Lisa. Skapa därför en profil som
 heter "Lisa", med blå profilbild.
 }
 
-Båda testpersonerna deltog i detta test, och båda klarade av uppgiften. Båda
-testpersonerna försökte öppna Spotify-appen innan de insåg att "Min
-Musik"-appen skulle användas, men använde sedan den tänkta vägen för att spela
-upp den angivna spellistan.
+Testperson 2 gjorde detta test, och klarade uppgiften, dock återigen inte
+felfritt. Personen öppnade först musik-appen, innan hon insåg att det var "Byt
+Profil"-knappen som skulle användas. Hon matade in namnet, men tryckte precis
+som testperson 1 på "Klar" för tidigt, men hon gick in igen och satte
+profilbilden korrekt.
+
+Precis som i uppgift 2.1 så tyckte personen att det var otydligt att det var
+ett fliksystem, och att det såg ut som "Klar" skulle leda till profilbilden.
+Rekommendationen för detta är samma som för 2.1, då det är samma problem.
 
 \subsubsection*{Avslutande frågor}
 
 Dessa frågor ställdes efter testpersonerna utfört sina uppgifter.
 
-\begin{longtable}[c]{>\raggedright p{5cm} p{4.7cm} p{4.7cm} }
-    \textbf{Fråga} & \textbf{Svar person 1} & \textbf{Svar person 2} \\
-    \midrule
-    % TODO fill in
+\begin{longtable}[c]{>\raggedright p{5cm} >\raggedright p{4.7cm} p{4.7cm} }
+    \textbf{Fråga} & \textbf{Svar person 1} & \textbf{Svar person 2} \\ \midrule
+    Var det enkelt? & Ganska enkelt & Inte den andra uppgiften \\ \midrule
+    Vad tyckte du var bra? & Enkelt och snabbt att hitta saker & Enkelt att välja musik & \\ \midrule
+    Vad tyckte du var mindre bra? & Saknade "Slutför"-knapp i uppgift 2.1 & "Ny Profil" var ologisk. \\ \midrule
+    Vad kan förbättras? & Tydligare bekräftelse av handlingar. & Vet inte. \\ \midrule
+    Övriga kommentarer? & Inga & Använd vita element istället för gråa.
 \end{longtable}
 
 \end{document}
