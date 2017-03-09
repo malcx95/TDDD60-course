@@ -14,6 +14,7 @@
 \rhead{D3.c}
 \geometry{margin=3cm}
 \renewcommand{\dateseparator}{--}
+\renewcommand{\figurename}{Figur}
 
 \begin{document}
 
@@ -58,7 +59,7 @@ gå ut på. I samband med detta fick deltagarna svara på frågor om deras
 datorvana.
 
 Testet startades sedan genom att prototypen startades utan förklaring om vad
-det var för produkt det var en prototyp av. Deltagarna blev tillfrågade om vad
+vilken typ av produkt det var en prototyp av. Deltagarna blev tillfrågade om vad
 de trodde att det var för produkt och vad det skulle användas till,
 baserat på hur huvudmenyn ser ut. Efter detta fick deltagarna svaren på
 frågorna, så att de förstod vad prototypen var innan de började. Efter detta
@@ -75,7 +76,7 @@ Efter testet ställdes utvärderande frågor om deltagarnas upplevelse.
 \subsubsection*{Data som insamlades}
 
 Förutom svaren på frågorna så antecknades huruvida varje testperson klarade
-uppgiften, om användaren försökte ta andra vägar än de som var tänkta,
+uppgifterna, om användaren försökte ta andra vägar än de som var tänkta,
 eventuella frustrationer de visade samt övriga problem som användarna hade.
 
 \subsection*{Större fynd och rekommendationer}
@@ -102,6 +103,7 @@ Vid den första uppgiften trodde båda testpersonerna att det var meningen att
 musiken skulle spelas i Spotify, istället för musik-appen, men det är nog inget
 problem med designen så mycket som ett problem med uppgiftsinstruktionen.
 
+\newpage
 \subsection*{Detaljerade fynd och rekommendationer}
 
 \subsubsection*{Inledande frågor innan testet}
@@ -137,6 +139,7 @@ av testet.
     Spotify, Netflix, spel mm. \\ \midrule
 \end{longtable}
 
+\newpage
 \subsubsection*{Uppgift 1 - Spela musik}
 
 \textit{%
@@ -197,10 +200,82 @@ Dessa frågor ställdes efter testpersonerna utfört sina uppgifter.
 \begin{longtable}[c]{>\raggedright p{5cm} >\raggedright p{4.7cm} p{4.7cm} }
     \textbf{Fråga} & \textbf{Svar person 1} & \textbf{Svar person 2} \\ \midrule
     Var det enkelt? & Ganska enkelt & Inte den andra uppgiften \\ \midrule
-    Vad tyckte du var bra? & Enkelt och snabbt att hitta saker & Enkelt att välja musik & \\ \midrule
+    Vad tyckte du var bra? & Enkelt och snabbt att hitta saker & Enkelt att
+    välja musik \\ \midrule
     Vad tyckte du var mindre bra? & Saknade "Slutför"-knapp i uppgift 2.1 & "Ny Profil" var ologisk. \\ \midrule
     Vad kan förbättras? & Tydligare bekräftelse av handlingar. & Vet inte. \\ \midrule
     Övriga kommentarer? & Inga & Använd vita element istället för gråa.
 \end{longtable}
+
+\newpage
+
+\section*{Bilaga - skärmbilder}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=10cm]{../screenshots/main_menu_pia.png}
+    \caption{Huvudmenyn för föräldrar}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=10cm]{../screenshots/main_menu_tom.png}
+    \caption{Huvudmenyn för barn, saknar "Profilplacering"-knapp}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=10cm]{../screenshots/music.png}
+    \caption{Menyn i Musik-appen}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=10cm]{../screenshots/playlists.png}
+    \caption{Vyn för spellistor i musik-appen}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=10cm]{../screenshots/player.png}
+    \caption{Spelningsvyn i musik-appen}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=10cm]{../screenshots/profile_placement.png}
+    \caption{Profilplaceringsvyn, endast föräldrar har åtkomst till denna}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=10cm]{../screenshots/switch_profile.png}
+    \caption{Byt-profil-vyn, Pia och Erik kan inte väljas eftersom Tom är
+    inloggad}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=10cm]{../screenshots/new_profile_general.png}
+    \caption{Ny-profil-vyn, i "Allmänt"-fliken}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=10cm]{../screenshots/new_profile_pic.png}
+    \caption{Ny-profil-vyn, i "Profilbild"-fliken}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=10cm]{../screenshots/new_profile_kids.png}
+    \caption{Ny-profil-vyn, i "Barnprofil"-fliken}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=10cm]{../screenshots/new_profile_no_kids.png}
+    \caption{Ny-profil-vyn, utan "Barnprofil"-fliken då användaren är ett barn}
+\end{figure}
 
 \end{document}
